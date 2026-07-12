@@ -21,7 +21,7 @@ Therefore TLS is not implemented directly in the language.
 keeps the effects of AI systems within safe limits, defined by the operator.
 
 Large and complex models are not random.
-They are deterministic, but currently intractable or unfathomable.
+They are deterministic, but can be intractable or unfathomable.
 
 One can run the model in a defined space.
 A positive list of skills enables the model to interact.
@@ -33,3 +33,5 @@ The input filter is the firewall and the input validation for AI.
 The output filter keeps the effects in the defined safe zone, if there is a fail-safe mode.
 
 These two filters can be controlled by the runtime or virtual machine.
+
+Container virtualization can start different inference engines and models.
